@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Автотесты мобильного приложения Звук">
+    <test name="Страница Авторизация">
+        <classes>
+            <class name="tests.LoginPageTest"/>
+        </classes>
+    </test>
+    <test name="Страница Ввод номера телефона">
+        <classes>
+            <class name="tests.PhoneNumberTest"/>
+        </classes>
+    </test>
+    <test name="Страница Чат">
+        <classes>
+            <class name="tests.ChatPageTest"/>
+        </classes>
+    </test>
+</suite>
