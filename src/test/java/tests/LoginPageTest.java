@@ -6,7 +6,7 @@ import pages.LoginPage;
 
 public class LoginPageTest extends BaseTest {
 
-    @Test(description = "При запуске приложения отображаеся страница Авторизации")
+    @Test(description = "При запуске приложения отображается страница Авторизации")
     public void loginPageTest() {
         LoginPage loginPage = new LoginPage(appiumdriver);
 

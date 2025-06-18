@@ -7,7 +7,7 @@ import pages.LoginPage;
 
 public class ChatPageTest extends BaseTest {
 
-    @Test(description = "При запуске приложения отображаеся страница Авторизации")
+    @Test(description = "При нажатии кнопки 'Чат' отображается страница Чат")
     public void loginPageTest() {
         LoginPage loginPage = new LoginPage(appiumdriver);
         loginPage.goToChatPage();

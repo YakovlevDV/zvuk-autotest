@@ -18,13 +18,13 @@ public class PhoneNumberTest extends BaseTest {
         // Проверяем отображение страницы Вход по номеру телефона путем проверки
         // отображения ключевых элементов этой страницы
 
-        // "Кнопка смены кода страны не отображается"
+        // "Кнопка смены кода страны отображается"
         Assert.assertTrue(phoneNumberPage.getCountryCodeButton().isDisplayed());
 
-        // "Поле ввода телефонного номера не отображается"
+        // "Поле ввода телефонного номера отображается"
         Assert.assertTrue(phoneNumberPage.getPhoneTestField().isDisplayed());
 
-        // "Кнопка 'Получить СМС-код' не отображается"
+        // "Кнопка 'Получить СМС-код' отображается"
         Assert.assertTrue(phoneNumberPage.getReceiveSmsCodeButton().isDisplayed());
     }
 
